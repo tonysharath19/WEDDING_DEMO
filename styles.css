@@ -129,7 +129,7 @@ header {
     left: 0;
     width: 100%;
     height: calc(100vh - 60px - 40px); /* header + footer height */
-    z-index: -1;
+    z-index: 11;
     overflow: hidden;
 }
 

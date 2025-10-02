@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <button class="hamburger" id="hamburgerBtn">&#9776;</button>
+        <h1 class="header-title">Wedding invite</h1>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="side-menu" id="sideMenu">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <nav>
+            <a href="#venue">Venue</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </div>
+
     <div class="video-container">
         <video id="bgVideo" autoplay muted playsinline>
             <source src="VIDS/WBG0.mp4" type="video/mp4">
@@ -22,6 +37,10 @@
             Tap here To unveil Invitation
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2025 | All rights reserved</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
